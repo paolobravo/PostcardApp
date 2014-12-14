@@ -103,6 +103,15 @@
                                     <rect key="frame" x="36" y="109" width="288" height="64"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uvg-mu-9vo">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="36" y="198" width="193" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -112,6 +121,7 @@
                                 <exclude reference="od5-Fg-PPb"/>
                                 <exclude reference="Gfc-r5-0nb"/>
                                 <exclude reference="VCj-zd-d3F"/>
+                                <exclude reference="Uvg-mu-9vo"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -121,6 +131,7 @@
                                 <include reference="od5-Fg-PPb"/>
                                 <include reference="Gfc-r5-0nb"/>
                                 <include reference="VCj-zd-d3F"/>
+                                <include reference="Uvg-mu-9vo"/>
                             </mask>
                         </variation>
                     </view>
@@ -129,6 +140,7 @@
                         <outlet property="enterNameTextField" destination="iLt-t8-u5P" id="uBc-lx-Vix"/>
                         <outlet property="mailButton" destination="Gfc-r5-0nb" id="2HQ-Xj-ZEH"/>
                         <outlet property="messageLabel" destination="VCj-zd-d3F" id="96b-F8-STJ"/>
+                        <outlet property="nameLabel" destination="Uvg-mu-9vo" id="X3C-EJ-NsB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
